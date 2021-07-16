@@ -29,6 +29,8 @@ repos:
         language: system
         entry: pipenv run coverage run -m pytest
         types: [python]
+        always_run: true
+        pass_filenames: false
 
       - id: coverage
         name: coverage
@@ -36,3 +38,5 @@ repos:
         language: system
         entry: pipenv run coverage report
         types: [python]
+        always_run: true
+        pass_filenames: false
