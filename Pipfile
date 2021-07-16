@@ -4,6 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+prometheus-client = "*"
+flask = "*"
 
 [dev-packages]
 black = "*"
