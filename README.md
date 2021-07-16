@@ -34,3 +34,7 @@ Flask web application can be executed by running: `pipenv run flask run`
 ### Prometheus
 
 Prometheus client is available through Flask: `http://127.0.0.1:5000/metrics/`
+
+## Opentracing
+
+No-op opentracing is used.

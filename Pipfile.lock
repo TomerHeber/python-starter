@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "46e8d5fa3e919bdf505284b60fb50a27afe55a201fdfdb9a842b9dad2fad95df"
+            "sha256": "31947a177c7a496f3a8a0eea8fb0588ea8e2129bb85f729fc44647a2422ed557"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -87,6 +87,13 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==2.0.1"
+        },
+        "opentracing": {
+            "hashes": [
+                "sha256:a173117e6ef580d55874734d1fa7ecb6f3655160b8b8974a2a1e98e5ec9c840d"
+            ],
+            "index": "pypi",
+            "version": "==2.4.0"
         },
         "prometheus-client": {
             "hashes": [

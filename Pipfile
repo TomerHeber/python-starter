@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 prometheus-client = "*"
 flask = "*"
+opentracing = "*"
 
 [dev-packages]
 black = "*"
